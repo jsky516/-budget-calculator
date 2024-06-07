@@ -1,0 +1,41 @@
+.main-container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+:root {
+  --primaryColor: #90A959;
+  --secondColor: #E9B872;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainRed: #c45151;
+  --mainGreen: #4caf50;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--secondColor);
+  color: var(--mainBlack);
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+  background: var(--mainWhite);
+  border-radius: 5px;
+}
+
+.total-expense {
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}

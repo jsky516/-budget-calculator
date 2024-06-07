@@ -1,0 +1,24 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .btn {
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .btn:hover {
+    background: var(--mainGreen);
+  }
+  
+  .btn-icon {
+    margin-left: 0.5rem;
+  }
